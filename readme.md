@@ -1,4 +1,4 @@
-ASNR API TESTS
+Test Automation Boilerplate
 =============
 [![python 2.7](https://img.shields.io/badge/python-2.7-brightgreen.svg)](https://www.python.org/)
 [![pytest 3.6.4](https://img.shields.io/badge/pytest-3.6.4-green.svg)](https://docs.pytest.org/en/latest/)
@@ -6,7 +6,7 @@ ASNR API TESTS
 [![pytest_html 1.19.0](https://img.shields.io/badge/pytest_html-1.19.0-yellowgreen.svg)](https://github.com/pytest-dev/pytest-html)
 [![xdist 1.22.5](https://img.shields.io/badge/xdist-1.22.5-orange.svg)](https://pypi.org/project/pytest-xdist/)
 
-A boilerplate project to get started with API automation using pytest in Python with best practices.
+A boilerplate project to get started with automation using pytest in Python with best practices.
 
 The [pytest](https://docs.pytest.org/en/latest/) framework makes it easy to write small tests, yet
 scales to support complex functional testing for applications and libraries.
