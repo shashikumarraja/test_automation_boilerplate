@@ -1,0 +1,37 @@
+{
+  "name": "report-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node_modules/.bin/ava tests/**/*.test.js --verbose",
+    "test:watch": "node_modules/.bin/ava --verbose --watch",
+    "cover": "node_modules/.bin/nyc npm test",
+    "lint": "xo --fix"
+  },
+  "author": "Shashi Kumar Raja <shashiraja92@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ava": "^0.25.0",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.16",
+    "nyc": "^13.0.1",
+    "supertest": "^3.3.0",
+    "xo": "^0.23.0"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ]
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text",
+      "html"
+    ]
+  }
+}

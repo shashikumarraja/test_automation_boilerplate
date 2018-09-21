@@ -1,0 +1,6 @@
+allure-pytest==2.5.0
+allure-python-commons==2.5.0
+pytest==3.6.4
+pytest-html==1.19.0
+pytest-xdist==1.22.5
+autopep8==2.4.0

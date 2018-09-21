@@ -1,0 +1,11 @@
+__pycache__
+report
+pytest.log
+tests/__pycache__
+log
+utils.pyc 
+.pytest_cache
+report-api/.nyc_output
+report-api/node_modules
+report-api/package-lock.json
+report-api/coverage
